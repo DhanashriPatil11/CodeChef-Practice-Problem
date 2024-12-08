@@ -1,0 +1,24 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+         Scanner scanner = new Scanner(System.in);
+
+        // Input the AQI value
+        int X = scanner.nextInt();
+
+        // Check if AQI is strictly less than 100
+        if (X < 100) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+
+        scanner.close();
+	}
+}
